@@ -1,11 +1,16 @@
 import React from "react";
+import Login from "./components/Auth/Login";
+import EmployeeDashboard from "./components/Dashboard/EmployeeDashboard";
+import { TaskListNumbers } from "./components/others/TaskListNumbers";
+import AdminDashboard from "./components/Dashboard/AdminDashboard";
 
 export default function App(){
   return(
     <div>
-      <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    {/* <Login/> */}
+    {/* <EmployeeDashboard/> */}
+    <AdminDashboard/>
+  
     </div>
   )
 }
